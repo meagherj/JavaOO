@@ -13,7 +13,7 @@ public class Parent extends Person implements Printable{
         super (name);
 
         // Set the class for this parent
-        // this.setParentChild(parentChild);
+        this.setParentChild(parentChild);
     }
 
     // Get parent child
