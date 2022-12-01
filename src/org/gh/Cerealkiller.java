@@ -9,7 +9,7 @@ public class Cerealkiller extends Person implements Printable{
    
   }
   
-  public String getKk(){
+  public String getKd(){
     return this.kd;
   }
   
