@@ -7,18 +7,18 @@ public class Jesus extends Person implements Printable{
 
     private String books;
  
-    public void setfavbook(String books){
+    public void setFavbook(String books){
         this.books = books;
     }
 
-    public String getfavbook(){
+    public String getFavbook(){
         return this.books;
     }
     
  
     public Jesus(String name, String book){
         super(name);
-        this.setfavbook(books);
+        this.setFavbook(books);
     }
 
 
