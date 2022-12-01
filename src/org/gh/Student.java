@@ -28,7 +28,7 @@ public class Student extends Person implements Printable{
 
     // Because this class implements Printable, I must override the printMe() method
     public String printMe(){
-        // For a student, I want the name and grade to print
+        
         return "Student details from PrintMe() - " + this.getName()+ " - "+this.getGrade();
     }
 }
