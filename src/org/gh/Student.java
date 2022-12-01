@@ -4,7 +4,7 @@ package org.gh;
 // extends Parent means we inherit from Parent
 // This gives Student the ability to use Parent methods and attributes
 // implements Printable means we must override the methods in that interface
-public class Stud extends Person implements Printable{
+public class Student extends Person implements Printable{
 
     // attribute to store students grade 
     // NOTE: it's private, so we provide a getter and setter
@@ -21,7 +21,7 @@ public class Stud extends Person implements Printable{
     
     // constructor called to create a new student object
     //  See it's usage in RunMe
-    public Stud(String name, String grade){
+    public Student(String name, String grade){
         super(name);
         this.setGrade(grade);
     }
