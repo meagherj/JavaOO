@@ -24,7 +24,7 @@ public class PK extends Person implements Printable{
     }
     
     public String printMe(){
-        return "Pokemon Caught - " + this.getName()+ ", "+this.getpokemonCaught()+ ", Is he ten?"+this.isHeTen() ;
+        return "Pokemon Caught - " + this.getName()+ ", "+this.getpokemonCaught()+ ", Is he ten? "+this.isHeTen() ;
     }
 
 }
