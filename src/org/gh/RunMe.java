@@ -1,5 +1,3 @@
-package org.gh;
-
 // Generic class to contain a main method for testing our structures
 public class RunMe{
 
@@ -17,7 +15,7 @@ public class RunMe{
         System.out.println("Print with name (from person) and grade (from student)");
         System.out.println(objStudent.getName() + " - " + objStudent.getGrade());
         
-        System.out.println("Print with name (from person) and kd (from cerealkiller)");
+        System.out.println("Print with name (from person) and gpa (from senior)");
         System.out.println(objSenior.getName() + " - " + objSenior.getGpa());
         
 
