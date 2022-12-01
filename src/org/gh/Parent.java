@@ -17,7 +17,7 @@ public class Parent extends Person implements Printable{
   }
   
   public String printMe(){
-    return "Parent info from printMe() = " + this.getName()+ " - "+ this.getChild();
+    return "Parent info from printMe() = " + this.getName()+ " - ";
   }
 }
 
