@@ -4,7 +4,7 @@ public class Parent extends Person implements Printable{
 
     private String children;
 
-    public Teacher(String name, String children){
+    public Parent(String name, String children){
         super (name);
 
         this.setChildren(children);
