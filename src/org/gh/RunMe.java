@@ -11,14 +11,14 @@ public class RunMe{
         System.out.println("Creating a new student and Teacher");
         Student objStudent = new Student("Student 1", "GradeA");
         Teacher objTeacher = new Teacher("Teacher 1", "Class#1, Class#2");
-        Cerealkiller objCerealkiller = new Cerealkiller("Cerealkiller 1", "Kd2.0");
+        Senior objSenior = new Senior("Senior 1", "Gpa1");
 
         // Print details of a student we created above (name - grade)
         System.out.println("Print with name (from person) and grade (from student)");
         System.out.println(objStudent.getName() + " - " + objStudent.getGrade());
         
         System.out.println("Print with name (from person) and kd (from cerealkiller)");
-        System.out.println(objCerealkiller.getName() + " - " + objCerealkiller.getKd());
+        System.out.println(objSenior.getName() + " - " + objSenior.getGpa());
         
 
         // Print details of a Teacher we created above (name - classes)
@@ -30,23 +30,7 @@ public class RunMe{
         System.out.println("Print the Student and teacher using the printMe method from Printable");
         System.out.println(objStudent.printMe());
         System.out.println(objTeacher.printMe());
-        System.out.println(objCerealkiller.printMe());
-
-        // Use the toString method of Student (not overriden from the Parent definition)
-        System.out.println("Use the toString method in person since it's not overridden in the subclasses");
-        System.out.println(objStudent);
-        System.out.println(objTeacher);
-        System.out.println(objCerealkiller);
-
-
-        // Create a new object and print it 
-        // This is to see what it looks like if you do not override the toString method
-        Object obj = new Object();
-        System.out.println("This will use the Object toString printing the class and memory location");
-        System.out.println(obj);
-    }
-}
-
+        System.out.println(objSenior.printMe());
 
         // Use the toString method of Student (not overriden from the Parent definition)
         System.out.println("Use the toString method in person since it's not overridden in the subclasses");
@@ -62,3 +46,4 @@ public class RunMe{
         System.out.println(obj);
     }
 }
+
