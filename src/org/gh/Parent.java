@@ -8,7 +8,7 @@ public class Parent extends Person implements Printable{
     private String parentChild;
 
     // Constructor of taking name and parent's child as input
-    public Teacher(String name, String parentChild){
+    public Parent(String name, String parentChild){
         // Call superclass constructor (in this case Person)
         super (name);
 
