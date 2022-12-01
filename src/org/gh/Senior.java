@@ -20,8 +20,8 @@ public class Senior extends Student implements Printable{
     
     // constructor called to create a new student object
     //  See it's usage in RunMe
-    public Senior(String name, String gpa){
-        super(name);
+    public Senior(String Senior, String gpa){
+        super(gpa);
         this.setgpa(gpa);
     }
 
