@@ -15,7 +15,7 @@ public class Friend extends Person implements Printable{
         this.age = age;
     }
     // get age
-    public String setAge(){
+    public String getAge(){
         return this.age;
     }
     
