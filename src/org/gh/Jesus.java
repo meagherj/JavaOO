@@ -27,3 +27,4 @@ public class Jesus extends Person implements Printable{
         return "Student details from PrintMe() - " + this.getName()+ " - "+this.getfavbooks();
     }
 }
+
