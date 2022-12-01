@@ -16,7 +16,7 @@ public class RunMe{
 
         // Print details of a student we created above (name - grade)
         System.out.println("Print with name (from person) and grade (from student)");
-        System.out.println(objStudent.getName() + " - " + objStudent.getGrade());
+        System.out.println(objStudent.getTitle() + " - " + objStudent.getAction());
 
 
         // Print details of a Teacher we created above (name - classes)
