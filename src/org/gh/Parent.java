@@ -11,6 +11,9 @@ public class Parent extends Person implements Printable{
     public Parent(String name, String parentChild){
         // Call superclass constructor (in this case Person)
         super (name);
+        
+   
+        this.setParentChild(parentChild);
 
 
     }
