@@ -27,7 +27,7 @@ public class RunMe{
         
         //this is for jesus        
         System.out.println("Print with name (from person) and books (from Jesus)");
-        System.out.println(objStudent.getName() + " - " + objStudent.getFavbook());
+        System.out.println(objStudent.getName() + " - " + objJesus.getFavbook());
         
 
         // This uses the polymorphism to call printMe and see different results
