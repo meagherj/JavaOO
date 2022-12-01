@@ -25,7 +25,7 @@ public class RunMe{
         System.out.println(objTeacher.getName() + " - " + objTeacher.getClasses());
         
         //print details of character
-        System.out.println("Print with title (from person)
+        System.out.println("Print with title (from person) and Action (from Character)");
         System.out.println(objCharacter.getTitle() + " - " + objCharacter.getAction());
         
 
