@@ -19,7 +19,7 @@ public class RunMe{
         System.out.println("Print with name (from person) and grade (from student)");
         System.out.println(objStudent.getName() + " - " + objStudent.getGrade());
         System.out.println(objPokemonTrainer.getName() + " - " + objPokemonTrainer.getpokemonCaught());
-        System.out.println("But Is he Still ten?" + objPokemonTrainer.isHeTen());
+        System.out.println("But Is he Still ten? " + objPokemonTrainer.isHeTen());
 
 
         // Print details of a Teacher we created above (name - classes)
