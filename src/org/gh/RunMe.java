@@ -20,7 +20,7 @@ public class RunMe{
         System.out.println(objStudent.getName() + " - " + objStudent.getGrade());
 
         System.out.println("Print with name (from person) and gpa (from senior)");
-        System.out.println(objStudent.getName() + " - " + objStudent.getgpa());
+        System.out.println(objStudent.getName() + " - " + objStudent.getGpa());
 
 
         // Print details of a Teacher we created above (name - classes)
