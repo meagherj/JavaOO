@@ -10,6 +10,7 @@ public class Character extends Person implements Printable{
     // NOTE: it's private, so we provide a getter and setter
     private String action;
     
+    
     // set grade
     public void setAction(String action){
         this.action = action;
