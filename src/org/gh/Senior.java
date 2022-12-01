@@ -10,7 +10,7 @@ public class Senior extends Student implements Printable{
     private String gpa;
     
     // set grade
-    public void setgpa(String gpa){
+    public void setGpa(String gpa){
         this.gpa = gpa;
     }
     // get gpa
@@ -22,13 +22,13 @@ public class Senior extends Student implements Printable{
     //  See it's usage in RunMe
     public Senior(String Senior, String gpa){
         super(gpa);
-        this.setgpa(gpa);
+        this.setGpa(gpa);
     }
 
     // Because this class implements Printable, I must override the printMe() method
     public String printMe(){
         // For a student, I want the name and grade to print
-        return "Senior details from PrintMe() - " + this.getName()+ " - "+this.getgpa();
+        return "Senior details from PrintMe() - " + this.getName()+ " - "+this.getGpa();
     }
 }
 
