@@ -4,7 +4,7 @@ public class Security extends Person implements Printable{
 
     private String shifts;
    
-    public Teacher(String name, String shifts){
+    public Security(String name, String shifts){
         super (name);
 
         this.setShifts(shifts);
