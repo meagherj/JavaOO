@@ -19,7 +19,7 @@ public class CerealKiller extends Person implements Printable{
   }
   
   public String printMe(){
-    return "CerealKiller details from PrintMe() - " + this.getName()+ " - "+this.getGrade();
+    return "CerealKiller details from PrintMe() - " + this.getName()+ " - "+this.getKD();
   }
   
 }
