@@ -26,7 +26,7 @@ public class RunMe{
         
         //print details of character
         System.out.println("Print with title (from person) and Action (from Character)");
-        System.out.println(objCharacter.getTitle() + " - " + objCharacter.getAction());
+        System.out.println(objCharacter.getName() + " - " + objCharacter.getAction());
         
 
         // This uses the polymorphism to call printMe and see different results
