@@ -3,6 +3,7 @@ package org.gh;
 public class PK extends Person implements Printable{
 
     private String pokemonCaught;
+    private String isTen;
     
     public void setPokemonCaught(String pokemonCaught){
         this.pokemonCaught = pokemonCaught;
