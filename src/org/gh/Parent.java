@@ -1,24 +1,24 @@
 package org.gh;
 
-public class Teacher extends Person implements Printable{
+public class Parent extends Person implements Printable{
 
-    private String classes;
+    private String children;
 
-    public Teacher(String name, String students){
+    public Teacher(String name, String children){
         super (name);
 
-        this.setStudents(students);
+        this.setChildren(children);
     }
 
-    public String getStudents(){
-        return this.students;
+    public String getChildren(){
+        return this.children;
     }
 
-    public void setStudents(String students){
-        this.classes = students;
+    public void setChildren(String children){
+        this.children = children;
     }
 
     public String printMe(){
-        return "Teacher details from printMe() = " + this.getName()+ " - "+this.getClasses();
+        return "Parent details from printMe() = " + this.getName()+ " - "+this.getChildren();
     }
 }
