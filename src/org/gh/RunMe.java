@@ -12,13 +12,14 @@ public class RunMe{
         System.out.println("Creating a new student, Teacher, and Ash Ketchum");
         Student objStudent = new Student("Student 1", "GradeA");
         Teacher objTeacher = new Teacher("Teacher 1", "Class#1, Class#2");
-        PK objPokemonTrainer = new PK("Ash Ketchum", "15");
+        PK objPokemonTrainer = new PK("Ash Ketchum", "15", "Yes");
 
 
         // Print details of a student we created above (name - grade)
         System.out.println("Print with name (from person) and grade (from student)");
         System.out.println(objStudent.getName() + " - " + objStudent.getGrade());
         System.out.println(objPokemonTrainer.getName() + " - " + objPokemonTrainer.getpokemonCaught());
+        System.out.println("But Is he Still ten?" + objPokemonTrainer.isHeTen());
 
 
         // Print details of a Teacher we created above (name - classes)
