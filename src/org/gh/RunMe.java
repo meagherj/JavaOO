@@ -9,10 +9,10 @@ public class RunMe{
         // Create a new student, set a name and a grade
         // NOTE: since Student inherits from Person we also get person methods
         // see getName() and toString() below which are defined in Person
-        System.out.println("Creating a new Student and Teacher");
+        System.out.println("Creating a new Student and Teacher and food");
         Student objStudent = new Student("Student 1", "GradeA");
         Teacher objTeacher = new Teacher("Teacher 1", "Class#1, Class#2");
-        Food objFood = new Food("Brownie", "Chocolate, Flour, Water")
+        Food objFood = new Food("Food 1", "Ingredient 1, Ingredient 2, Ingredient 3");
 
 
         // Print details of a student we created above (name - grade)
@@ -25,15 +25,15 @@ public class RunMe{
         System.out.println(objTeacher.getName() + " - " + objTeacher.getClasses());
 
         //print the details of fod
-        System.out.println("Print with name (from Food) and ")
-        System.out.println(objFood.getName() + " - " + objFood.getRecipe())
+        System.out.println("Print with name (from person) and ingredients (from Food)");
+        System.out.println(objFood.getName() + " - " + objFood.getRecipe());
         
 
         // This uses the polymorphism to call printMe and see different results
         System.out.println("Print the Student and teacher using the printMe method from Printable");
         System.out.println(objStudent.printMe());
         System.out.println(objTeacher.printMe());
-        System.out.println(objFood.printMe())
+        System.out.println(objFood.printMe());
 
 
         // Use the toString method of Student (not overriden from the Parent definition)
