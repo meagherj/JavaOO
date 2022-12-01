@@ -12,7 +12,7 @@ public class RunMe{
         System.out.println("Creating a new student, parent, and Teacher");
         Student objStudent = new Student("Student 1", "GradeA");
         Teacher objTeacher = new Teacher("Teacher 1", "Class#1, Class#2");
-        Parent objParent = new Parent("Parent 1", "Child1", "Child2");
+        Parent objParent = new Parent("Parent 1", "Child1");
 
 
         // Print details of a student we created above (name - grade)
