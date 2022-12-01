@@ -5,7 +5,7 @@ public class Cerealkiller extends Person implements Printable{
   private String kd;
   
   public void setKd(String kd){
-    this.Kd = kd;
+    this.kd = kd;
    
   }
   
