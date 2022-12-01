@@ -21,7 +21,7 @@ public class Friend extends Person implements Printable{
     
     // constructor called to create a new student object
     //  See it's usage in RunMe
-    public Student(String name, String age){
+    public Friend(String name, String age){
         super(name);
         this.setAge(age);
     }
@@ -29,6 +29,6 @@ public class Friend extends Person implements Printable{
     // Because this class implements Printable, I must override the printMe() method
     public String printMe(){
         // For a student, I want the name and age to print
-        return "Student details from PrintMe() - " + this.getName()+ " - "+this.getAge();
+        return "Friend details from PrintMe() - " + this.getName()+ " - "+this.getAge();
     }
 }
