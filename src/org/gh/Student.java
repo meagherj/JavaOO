@@ -22,7 +22,7 @@ public class Student extends Person implements Printable{
     public String getGrade(){
         return this.grade;
     }
-    public String getgpa(){
+    public String getGpa(){
         return this.gpa;
     }
     
@@ -34,7 +34,7 @@ public class Student extends Person implements Printable{
     }
     public Senior(String name, String gpa){
         super(name);
-        this.setgpa(gpa);
+        this.setGpa(gpa);
     }
 
 
@@ -45,6 +45,6 @@ public class Student extends Person implements Printable{
     }
     public String printMe(){
         // For a student, I want the name and grade to print
-        return "Senior details from PrintMe() - " + this.getName()+ " - "+this.getgpa();
+        return "Senior details from PrintMe() - " + this.getName()+ " - "+this.getGpa();
     }
 }
