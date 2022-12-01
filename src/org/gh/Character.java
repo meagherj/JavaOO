@@ -21,14 +21,14 @@ public class Character extends Person implements Printable{
     
     // constructor called to create a new student object
     //  See it's usage in RunMe
-    public Character(String title, String action){
-        super(title);
+    public Character(String Character, String action){
+        super(action);
         this.setAction(action);
     }
 
     // Because this class implements Printable, I must override the printMe() method
     public String printMe(){
         // For a student, I want the name and grade to print
-        return "Character details from PrintMe() - " + this.getTitle()+ " - "+this.getAction();
+        return "Character details from PrintMe() - " + this.getName()+ " - "+this.getAction();
     }
 }
