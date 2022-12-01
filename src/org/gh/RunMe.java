@@ -12,7 +12,7 @@ public class RunMe{
         System.out.println("Creating a new student and Teacher");
         Student objStudent = new Student("Student 1", "GradeA");
         Teacher objTeacher = new Teacher("Teacher 1", "Class#1, Class#2");
-        Friend objFriend = new Friend("Friend 1", "Class A");
+        Friend objFriend = new Friend("Friend 1", "Age A");
 
 
         // Print details of a student we created above (name - grade)
