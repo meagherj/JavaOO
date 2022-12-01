@@ -21,8 +21,8 @@ public class Character extends Person implements Printable{
     
     // constructor called to create a new student object
     //  See it's usage in RunMe
-    public Character(String Character, String action){
-        super(action);
+    public Character(String name, String action){
+        super(name);
         this.setAction(action);
     }
 
