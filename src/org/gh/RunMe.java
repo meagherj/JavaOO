@@ -12,28 +12,34 @@ public class RunMe{
         System.out.println("Creating a new student and Teacher");
         Student objStudent = new Student("Student 1", "GradeA");
         Teacher objTeacher = new Teacher("Teacher 1", "Class#1, Class#2");
-
+        McdWork objMcdWork = new McdWork ("Worker 1"), "Position, Salary"); 
 
         // Print details of a student we created above (name - grade)
         System.out.println("Print with name (from person) and grade (from student)");
         System.out.println(objStudent.getName() + " - " + objStudent.getGrade());
-
+        
 
         // Print details of a Teacher we created above (name - classes)
         System.out.println("Print with name (from person) and Classes (from Teacher)");
         System.out.println(objTeacher.getName() + " - " + objTeacher.getClasses());
         
 
+        System.out.println("Print with name (from person) and Position (from McdWork)");
+        System.out.println(objMcdWork.getName() + " - " + objMcdWork.getPay());
+        
+        
         // This uses the polymorphism to call printMe and see different results
         System.out.println("Print the Student and teacher using the printMe method from Printable");
         System.out.println(objStudent.printMe());
         System.out.println(objTeacher.printMe());
+        System.out.println(objMcdWork.printMe());
 
 
         // Use the toString method of Student (not overriden from the Parent definition)
         System.out.println("Use the toString method in person since it's not overridden in the subclasses");
         System.out.println(objStudent);
         System.out.println(objTeacher);
+        System.out.println(objMcdWork);
 
 
         // Create a new object and print it 
