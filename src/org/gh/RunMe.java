@@ -13,6 +13,7 @@ public class RunMe{
         Student objStudent = new Student("Student 1", "GradeA");
         Teacher objTeacher = new Teacher("Teacher 1", "Class#1, Class#2");
         Parent objParent = new Parent("Parent 1", "Child");
+        Parent objSecurity = new Security("Security 1", "Shift");
 
 
         // Print details of a student we created above (name - grade)
@@ -29,6 +30,10 @@ public class RunMe{
         System.out.println("Print with name (from person) and Classes (from Teacher)");
         System.out.println(objTeacher.getName() + " - " + objTeacher.getClasses());
         
+        
+        System.out.println("Print with name (from person) and shift (from security)");
+        System.out.println(objSecurity.getName() + " - " + objSecurity.getShift());
+        
 
         // This uses the polymorphism to call printMe and see different results
         System.out.println("Print the Student and teacher using the printMe method from Printable");
@@ -42,6 +47,7 @@ public class RunMe{
         System.out.println(objStudent);
         System.out.println(objTeacher);
         System.out.println(objParent);
+        System.out.println(objSecurity);        
 
 
         // Create a new object and print it 
