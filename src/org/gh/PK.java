@@ -15,9 +15,9 @@ public class PK extends Person implements Printable{
     
     public String isHeTen(){
         if (this.isTen == "Yes") {
-            return "Obviously he still is"
+            return "Obviously he still is";
         }else{
-            return "wait what"
+            return "wait what";
             }
     }
 
