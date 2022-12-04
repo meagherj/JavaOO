@@ -1,10 +1,12 @@
 //  Think of package as a directory, we can import packages for reuse
 package org.gh;
 
+import java.io.Serializable;
+
 // extends Parent means we inherit from Parent
 // This gives Student the ability to use Parent methods and attributes
 // implements Printable means we must override the methods in that interface
-public class Student extends Person implements Printable{
+public class Student extends Person implements Printable, Serializable{
 
     // attribute to store students grade 
     // NOTE: it's private, so we provide a getter and setter

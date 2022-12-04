@@ -1,9 +1,11 @@
 //  Think of package as a directory, we can import packages for reuse
 package org.gh;
 
+import java.io.Serializable;
+
 // abstract means we cannot create an object of Person directly
 // First we must create a subclass that inherits Person (see Student class)
-public abstract class Person{
+public abstract class Person implements Serializable{
 
     //  All people have names (private, see getter/setter)
     private String name;

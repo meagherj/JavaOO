@@ -1,6 +1,12 @@
 //  Think of package as a directory, we can import packages for reuse
 package org.gh;
 
+import java.io.ObjectOutputStream;
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
+import java.io.ObjectInputStream;
+
 // Generic class to contain a main method for testing our structures
 public class RunMe{
 
@@ -41,5 +47,29 @@ public class RunMe{
         Object obj = new Object();
         System.out.println("This will use the Object toString printing the class and memory location");
         System.out.println(obj);
+
+        try{
+            File f = new File("obj.out");
+            f.createNewFile();
+            FileOutputStream fOut = new FileOutputStream(f);
+            ObjectOutputStream oOut = new ObjectOutputStream(fOut);
+            oOut.writeObject(objStudent);
+            oOut.writeObject(objTeacher);
+            oOut.close();
+            fOut.close();
+            System.out.println("Wrote the file, now reading it");
+
+            FileInputStream fileIn = new FileInputStream("obj.out");
+            ObjectInputStream in = new ObjectInputStream(fileIn);
+            Student readStudent = (Student) in.readObject();
+            Teacher readTeacher = (Teacher) in.readObject();
+            in.close();
+            fileIn.close();
+            System.out.println(readStudent.printMe());
+            System.out.println(readTeacher.printMe());
+            System.out.println("See above for results after read");
+        }catch (Exception e){
+            System.err.println("Caught:"+e.getMessage());
+        }
     }
 }
