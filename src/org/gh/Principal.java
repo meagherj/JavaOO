@@ -14,7 +14,7 @@ public class Principal extends Person implements Printable{
         return this.StudentsAttended;
     }
     
-    public String isHeTen(){
+    public String facultyMeeting(){
         if (this.facultyMeeting == "Yes") {
             return "Remember to stay after school";
         }else{
@@ -24,7 +24,7 @@ public class Principal extends Person implements Printable{
 
     public Principal(String name, String StudentsAttended, String facultyMeeting){
         super(name);
-        this.StudentsAttendedt(StudentsAttended);
+        this.StudentsAttended(StudentsAttended);
         this.facultyMeeting = facultyMeeting;
     }
     
