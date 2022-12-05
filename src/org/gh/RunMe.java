@@ -1,3 +1,5 @@
+package org.gh;
+
 // Generic class to contain a main method for testing our structures
 public class RunMe{
 
@@ -9,7 +11,7 @@ public class RunMe{
         System.out.println("Creating a new student and Teacher");
         Student objStudent = new Student("Student 1", "GradeA");
         Teacher objTeacher = new Teacher("Teacher 1", "Class#1, Class#2");
-        Senior objSenior = new Senior("Senior 1", "Gpa3.0");
+        Senior objSenior = new Senior("Senior 1", "Gpa2.0");
 
         // Print details of a student we created above (name - grade)
         System.out.println("Print with name (from person) and grade (from student)");
