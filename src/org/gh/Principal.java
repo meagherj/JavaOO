@@ -4,7 +4,7 @@ package org.gh;
 public class Principal extends Person implements Printable{
 
     private String StudentsAttended;
-    private String facuyMlteeting;
+    private String facultyMeeting;
     
     public void StudentsAttended(String StudentsAttended){
         this.StudentsAttended = StudentsAttended;
