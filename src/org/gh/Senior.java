@@ -1,6 +1,6 @@
 package org.gh;
 
-public class Cerealkiller extends Person implements Printable{
+public class Senior extends Person implements Printable{
 
   private String gpa;
   
