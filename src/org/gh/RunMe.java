@@ -30,7 +30,8 @@ public class RunMe{
         System.out.println("Print with name (from person) and Classes (from Teacher)");
         System.out.println(objTeacher.getName() + " - " + objTeacher.getClasses());
         
-               
+        System.out.println("Print with name (from person) and grade (from student)");
+        System.out.println(objPerson.getName());
         System.out.println(objPrincipal.getName() + " - " + objPrincipal.getStudentsAttended());
         System.out.println("Are you Busy? " + objPrincipal.facultyMeeting());
         
