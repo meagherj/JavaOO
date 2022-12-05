@@ -50,7 +50,7 @@ public class RunMe{
         System.out.println(objStudent);
         System.out.println(objTeacher);
         
-        System.out.println(objParent);
+        System.out.println(objparent);
 
 
         // Create a new object and print it 
