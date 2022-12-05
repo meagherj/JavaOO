@@ -69,7 +69,7 @@ public class RunMe{
             ObjectInputStream in = new ObjectInputStream(fileIn);
             Student readStudent = (Student) in.readObject();
             Teacher readTeacher = (Teacher) in.readObject();
-            Sophmore readTeacher = (Sophmore) in.readObject();
+            Sophmore readSophmore = (Sophmore) in.readObject();
             in.close();
             fileIn.close();
             System.out.println(readStudent.printMe());
