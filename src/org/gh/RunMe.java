@@ -18,7 +18,7 @@ public class RunMe{
         System.out.println("Creating a new student and Teacher and Sophmore");
         Student objStudent = new Student("Student 1", "GradeA");
         Teacher objTeacher = new Teacher("Teacher 1", "Class#1, Class#2");
-        Sophmore  objSophmore = new Sophmore("Sophmore 1", "Chemistry", "Algebra 2")
+        Sophmore  objSophmore = new Sophmore("Sophmore 1", "Chemistry", "Algebra 2");
 
 
         // Print details of a student we created above (name - grade)
