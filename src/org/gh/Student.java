@@ -6,7 +6,7 @@ package org.gh;
 // implements Printable means we must override the methods in that interface
 public class Student extends Person implements Printable{
 
-    // attribute to store students grade 
+    // attribute to store students grad 
     // NOTE: it's private, so we provide a getter and setter
     private String grade;
     
