@@ -31,7 +31,7 @@ public class RunMe{
         System.out.println(objTeacher.getName() + " - " + objTeacher.getClasses());
         
         System.out.println("Print with name (from person) and Classes (from Sophmore)");
-        System.out.println(objSophmore.getName() + " - " + objSophmore.getClasses());
+        System.out.println(objSophmore.getName() + " - " + objSophmore.getkd());
 
         // This uses the polymorphism to call printMe and see different results
         System.out.println("Print the Student, teacher, and sophmore using the printMe method from Printable");
