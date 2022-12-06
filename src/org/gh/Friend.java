@@ -22,7 +22,7 @@ public class Friend extends Person implements Printable{
     // constructor called to create a new student object
     //  See it's usage in RunMe
     public Friend(String Friend, String age){
-        super(age);
+        super(Friend);
         this.setAge(age);
     }
 
